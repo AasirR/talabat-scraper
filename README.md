@@ -29,3 +29,19 @@ A Python web scraper designed to extract restaurant names and cuisines from the 
    ```sh
    git clone https://github.com/AasirR/talabat-scraper.git
    cd talabat-scraper
+
+2. **Install Required Libraries:**
+
+   Create a virtual environment (optional but recommended):
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+   Install the dependencies:
+   pip install selenium pandas openpyxl webdriver-manager
+
+3. Run the scraper:
+   python Scraper.py
+
+   The script will create an Excel file named talabat_oman_restaurants.xlsx containing the restaurant names and cuisines.
+
+
